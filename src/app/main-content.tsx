@@ -59,7 +59,7 @@ export function MainContent({ user, project }: MainContentProps) {
             <ResizablePanel defaultSize={65}>
               <div className="h-full flex flex-col bg-white">
                 {/* Top Bar */}
-                <div className="h-14 border-b border-neutral-200/60 px-6 flex items-center justify-between bg-neutral-50/50">
+                <div className="h-14 border-b border-neutral-200/60 px-4 flex items-center justify-between bg-neutral-50/50">
                   <Tabs
                     value={activeView}
                     onValueChange={(v) =>
